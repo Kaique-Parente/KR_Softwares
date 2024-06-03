@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+body {
+  background-color: #575151;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.descricao {
+  margin-top: 150px;
+  margin-left: 150px;
+
+  width: 450px;
+  height: 250px;
+
+  display: block;
+  align-items: center;
+
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.descricao h1{
+  margin-top: 30px;
+}
+
+.descricao p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.formulario {
+ 
+  color: white;
+  font-weight: bold;
+
+  width: 420px;
+  height: 380px;
+  
+  margin-top: 100px;
+  margin-left: 100px;
+
+  border: 5px solid rgb(20, 17, 17);
+  border-radius: 10px;
+}
+
+.formulario h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.formulario input {
+  padding: 5px;
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  border-radius: 5px;
+  border-color: white;
+
+  width: 380px;
+}
+
+.formulario label{
+  margin-left: 8px;
+}
+
+.contatos {
+  color: white;
+  font-weight: bold;
+
+  width: 500px;
+  height: 200px;
+
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.contatos p {
+  margin-top: 20px;
+}
+
+.endereco {
+  color: white;
+  font-weight: bold;
+
+  width: 500px;
+  height: 300px;
+
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.endereco p{
+  margin-top: 10px;
+}
+
+.h1-sobreposto {
+  color: white;
+  font-weight: bold;
+
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; 
+}
+
+.redes-sociais{
+  color: white;
+  font-weight: bold;
+
+  width: 500px;
+  height: 300px;
+
+  margin-left: 150px;
+}
