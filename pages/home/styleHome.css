@@ -1,70 +1,5 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-color: rgba(0, 0, 0, 0.75);
-}
-
-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
-
 main{
     padding: 0px 10px;
-}
-
-.nav {
-    background-color: rgba(126, 68, 68, 0.75);
-
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 15px 100px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-}
-
-.logo {
-    width: auto;
-    height: auto;
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 60px;
-}
-
-.links{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-}
-
-.links a{
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.nav-linha{
-    width: 2px;
-    height: 30px;
-    background-color: white;
-}
-
-.links button {
-    margin-left: 15px;
-    border-radius: 0;
 }
 
 .grid {
@@ -125,19 +60,6 @@ main{
 
 #trabalhos img:nth-child(2){
     margin-left: 15px;
-}
-
-.btnPadrao{
-    background-color: #e74f4f;
-    font-size: 16px;
-    color: #ffff;
-
-    padding: 9px 15px;
-    border-radius: 20px;
-    border: 0px;
-    box-shadow: -4px 4px 10px 7px rgba(0, 0, 0, 0.2);
-
-    position: relative;
 }
 
 #softwares button {
