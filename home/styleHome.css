@@ -11,10 +11,24 @@ body{
 }
 
 header {
-    width: 1140px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: center;
+    
+}
+
+.nav {
+    background-color: rgba(126, 68, 68, 0.75);
+
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px 100px;
+    margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 .logo {
@@ -22,6 +36,31 @@ header {
     height: auto;
     max-width: 50px;
     max-height: 50px;
+    margin-right: 60px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-linha{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+
+.links button {
+    margin-left: 15px;
+    border-radius: 0;
 }
 
 .grid {
