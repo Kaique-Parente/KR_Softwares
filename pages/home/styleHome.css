@@ -100,7 +100,7 @@ main{
     left: 0;
     top: 0;
     padding: 3px 12px;
-    background-image: url(./imgs/rocket-lunch.png);
+    background-image: url(../resources/icons/rocket-lunch.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 15px;
