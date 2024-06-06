@@ -24,6 +24,7 @@ div > img {
 #cliente{
     grid-area: 1/1/7/2;
     background-color: #8c4c4c;
+    flex-direction: column;
 }
 
 #cliente img {
@@ -33,6 +34,48 @@ div > img {
 
 #cliente, #venda{
     margin-left: 25px;
+}
+
+.gradiente {
+    background: hsla(0, 13%, 18%, 1);
+    background: linear-gradient(90deg, hsla(0, 13%, 18%, 1) 0%, rgb(52, 40, 40) 0%, rgba(255, 46, 46,0.5) 66%, rgba(255, 255, 255, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(0, 13%, 18%, 1) 0%, rgb(52, 40, 40) 0%, rgba(255, 46, 46,0.5) 66%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(0, 13%, 18%, 1) 0%, rgb(52, 40, 40) 0%, rgba(255, 46, 46,0.5) 66%, rgba(255, 255, 255, 1) 100%);
+
+    width: 449.6px;
+    height: 113px;
+    
+    position: absolute;
+    top: 295px;
+    border-radius: 0px 0px 8px 8px;
+
+    display: flex;
+    justify-content: end;
+}
+
+.textos-gradiente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    margin: 20px 15px 0px 0px;
+    gap: 5px;
+}
+
+.textos-gradiente-esquerda{
+    align-items: flex-start;
+    margin: 20px 0px 0px 15px;
+}
+
+.textos-gradiente p {
+    font-size: 12px;
+    color: #B4C7E7;
+}
+
+.textos-gradiente h2 {
+    font-size: 16px;
+    color: #ffff;
 }
 
 #tec{
@@ -62,8 +105,23 @@ div > img {
     gap: 15px;
 }
 
-#produtos img {
+#produtos img, #produtos .gradiente {
     width: 350px;  
+}
+
+#produtos .gradiente, #venda .gradiente {
+    background: linear-gradient(90deg, rgb(51, 39, 39) 0%, rgb(51, 39, 39) 0%, rgba(255, 48, 48,0.5) 66%, rgba(134, 83, 83, 1) 100%);
+    background: -moz-linear-gradient(90deg, rgb(51, 39, 39) 0%, rgb(51, 39, 39) 0%, rgba(255, 48, 48,0.5) 66%, rgba(134, 83, 83, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(51, 39, 39) 0%, rgb(51, 39, 39) 0%, rgba(255, 48, 48,0.5) 66%, rgba(134, 83, 83, 1) 100%);
+}
+
+.gradiente:nth-child(3){
+    justify-content: start;
+    top: 310px;  
+}
+
+.gradiente:nth-child(4){
+    top: 645px;  
 }
 
 #logoM{
@@ -73,7 +131,9 @@ div > img {
 }
 
 #logoM img {
-    width: 350px;
+    width: 450px;
+    padding: 30px 90px;
+    background-color: white;
 }
 
 #venda{
@@ -86,14 +146,46 @@ div > img {
     width: 450px;
 }
 
-#relatorio{
-    grid-area: 11/2/14/3;
-    background-color: #d55937;
-    flex-wrap: wrap;
-    padding: 0px 15px;
+#venda .gradiente{
+    justify-content: start;
+    top: 645px;
 }
+
+#relatorio{
+    background-color: #d55937;
+    width: 530px;
+    grid-area: 11/2/14/3;
+    padding: 0px 15px;
+
+    position: relative;
+    overflow: hidden;
+}
+
 
 #relatorio img {
     width: 500px;
     height: auto;
+}
+
+#relatorio #triangulo {
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100px;
+    right: -44px;
+
+    border-left: 60px solid transparent;
+    border-right: 560px solid transparent;
+    border-top: 180px solid rgba(255, 48, 48,0.5);
+    transform: rotate(198deg);
+}
+
+#relatorio .textos-gradiente{
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+}
+
+#relatorio .textos-gradiente h2{
+    text-align: end;
 }
