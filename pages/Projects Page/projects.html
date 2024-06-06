@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="styleProjects.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="styleProjects.css" />
     <title>Portfólio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="nav">
-            <a href="../home/home.html">
-            <img class="logo" src="../resources/icons/Logo.png" alt="Logo da empresa KR" />
-            </a>
-            <div class="links">
-              <a href=""><span>KR Softwares</span></a>
-              <a href="../home/home.html"><span>Home</span></a>
-              <div class="nav-linha"></div>
-              <a href="../Projects Page/projects.html"><span>Portifólio</span></a>
-              <a href="../Contact Page/contactPage.html">
-              <button class="btnPadrao">Angendar Orçamento</button>
-              </a>
+      <div class="nav">
+        <img
+          class="logo"
+          src="../resources/icons/Logo.png"
+          alt="Logo da empresa KR"
+        />
+        <h2>KR Softwares</h2>
+        <div class="links">
+          <a href="../home/home.html"><span>Home</span></a>
+          <div class="nav-linha"></div>
+          <a href="../Projects Page/projects.html"><span>Portifólio</span></a>
+          <a href="../Contact Page/contactPage.html">
+            <button class="btnPadrao">Agendar Orçamento</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div id="cliente">
+          <img src="../resources/imgs/Cliente.PNG" alt="" />
+          <div class="gradiente">
+            <div class="textos-gradiente">
+              <p>FUNCIONALIDADE</p>
+              <h2>Cadastrar Clientes</h2>
             </div>
           </div>
-      </header>
-
-      <main>
-        <div class="grid">
-            <div id="cliente">
-                <img src="../imgs/Cliente.PNG" alt="">
-            </div>
-            <div id="logoP">
-                <img src="../imgs/Logo.png" alt="">
-                <h2>Supermercado KR</h2>
-            </div>
-            <div id="produtos">
-                <img src="../imgs/ListaProdutos.PNG" alt="">
-                <img src="../imgs/Produto.PNG" alt="">
+        </div>
+        <div id="tec">
+          <h2>Tecnologias:</h2>
+          <div class="images">
+            <img src="../resources/icons/java.png" alt="" />
+            <img src="../resources/icons/mysql.png" alt="" />
+          </div>
+        </div>
+        <div id="produtos">
+          <img src="../resources/imgs/ListaProdutos.PNG" alt="" />
+          <img src="../resources/imgs/Produto.PNG" alt="" />
+          <div class="gradiente">
+            <div class="textos-gradiente textos-gradiente-esquerda">
+              <p>FUNCIONALIDADE</p>
+              <h2>Listar Produtos e Clientes</h2>
             </div>
             <div id="logoM">
                 <img src="../imgs/logoSuperM.png" alt="">
@@ -48,6 +63,44 @@
                 <img src="../imgs/Relatorio.png" alt="">
             </div>
         </div>
-      </main>
-</body>
+        <div id="produtos">
+          <img src="../resources/imgs/ListaProdutos.PNG" alt="" />
+          <img src="../resources/imgs/Produto.PNG" alt="" />
+          <div class="gradiente">
+            <div class="textos-gradiente textos-gradiente-esquerda">
+              <p>FUNCIONALIDADE</p>
+              <h2>Listar Produtos e Clientes</h2>
+            </div>
+          </div>
+
+          <div class="gradiente">
+            <div class="textos-gradiente">
+              <p>FUNCIONALIDADE</p>
+              <h2>Cadastrar Produtos</h2>
+            </div>
+          </div>
+        </div>
+        <div id="logoM">
+          <img src="../resources/icons/logoSuperM.png" alt="" />
+        </div>
+        <div id="venda">
+          <img src="../resources/imgs/Venda.png" alt="" />
+          <div class="gradiente">
+            <div class="textos-gradiente textos-gradiente-esquerda">
+              <p>FUNCIONALIDADE</p>
+              <h2>Efetuar Venda</h2>
+            </div>
+          </div>
+        </div>
+        <div id="relatorio">
+          <img src="../resources/imgs/Relatorio.png" alt="" />
+          <div id="triangulo"></div>
+          <div class="textos-gradiente">
+            <p>FUNCIONALIDADE</p>
+            <h2>Exibir Relatório analítico e<br>Sintético das Vendas</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
